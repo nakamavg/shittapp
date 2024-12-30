@@ -1,0 +1,41 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  padding: 20px;
+  gap: 20px;
+  background-color: #f4f4f4;
+}
+/* App.css */
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.map-container {
+  flex: 1;
+  position: relative;
+}
+
+.bar-list-container {
+  width: 300px;
+  overflow-y: auto;
+  background-color: #f8f8f8;
+  border-left: 1px solid #ddd;
+}
+
+.map-list-container {
+  display: flex;
+  flex-direction: column; /* Cambia a fila si quieres el mapa y la lista lado a lado */
+  flex-grow: 1;
+  gap: 20px;
+}
+
+/* Error de geolocalización */
+.location-error {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+}

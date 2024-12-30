@@ -1,0 +1,6 @@
+[
+    { "id": 1, "name": "Bar El Sol", "address": "Calle del Sol, 12", "lat": 40.7128, "lng": -74.0060 },
+    { "id": 2, "name": "La Taberna", "address": "Avenida Principal, 45", "lat": 40.7200, "lng": -74.0100 },
+    { "id": 3, "name": "Café Central", "address": "Plaza Mayor, 7", "lat": 40.7050, "lng": -74.0000 },
+    { "id": 4, "name": "Bar de Moe", "address": "Calle falsa 123", "lat": 40.7300, "lng": -73.9900}
+]
